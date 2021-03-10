@@ -15,7 +15,7 @@ services:
       ENABLE_RCON: "false"
       ENABLE_QUERY: "false"
       MAX_PLAYERS: 10
-      OPS: "User1,User2"
+      OPS: "plexuss,Aralito99"
       DIFFICULTY: "normal"
       SNOOPER_ENABLED: "false"
       VIEW_DISTANCE: 12
