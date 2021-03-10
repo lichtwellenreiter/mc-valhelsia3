@@ -26,7 +26,7 @@ services:
       FORGEVERSION: "36.0.15"
       VERSION: "1.16.5"
       TYPE: "FORGE"
-      MEMORY: "8G"
+      MEMORY: "4G"
       # MEMORY: "3G"
     restart: always
     stdin_open: true
