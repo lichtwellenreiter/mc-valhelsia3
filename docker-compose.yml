@@ -23,7 +23,7 @@ services:
       MODE: "survival"
       MOTD: "MC Valhesia 3 Server"
       PVP: "true"
-      FORGEVERSION: "36.0.15"
+      FORGEVERSION: "36.0.46"
       VERSION: "1.16.5"
       TYPE: "FORGE"
       MEMORY: "4G"
