@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    container_name: mc-valhelsia
+    ports:
+      - "25570:25565"
+      - "25575:25575"
+    volumes:
+      - "mc-data:/data"
+    environment:
+      EULA: "TRUE"
+      CONSOLE: "false"
+      ENABLE_RCON: "false"
+      ENABLE_QUERY: "false"
+      MAX_PLAYERS: 10
+      OPS: "User1,User2"
+      DIFFICULTY: "normal"
+      SNOOPER_ENABLED: "false"
+      VIEW_DISTANCE: 12
+      # SEED: 747624897180923234
+      MODE: "survival"
+      MOTD: "MC Valhesia 3 Server"
+      PVP: "true"
+      FORGEVERSION: "36.0.15"
+      VERSION: "1.16.5"
+      TYPE: "FORGE"
+      MEMORY: "8G"
+      # MEMORY: "3G"
+    restart: always
+    stdin_open: true
+    tty: true
+
+volumes:
+  mc-data:
